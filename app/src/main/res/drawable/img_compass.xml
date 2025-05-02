@@ -1,0 +1,43 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="220dp"
+    android:height="220dp"
+    android:viewportWidth="220"
+    android:viewportHeight="220">
+    
+    <!-- Outer circle -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#000000"
+        android:strokeWidth="2"
+        android:pathData="M110,110 m-105,0 a105,105 0,1 1,210 0 a105,105 0,1 1,-210 0" />
+    
+    <!-- North pointer -->
+    <path
+        android:fillColor="#FF0000"
+        android:pathData="M110,110 L95,30 L110,15 L125,30 Z" />
+    
+    <!-- South pointer -->
+    <path
+        android:fillColor="#0000FF"
+        android:pathData="M110,110 L95,190 L110,205 L125,190 Z" />
+    
+    <!-- East pointer -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M110,110 L190,95 L205,110 L190,125 Z" />
+    
+    <!-- West pointer -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M110,110 L30,95 L15,110 L30,125 Z" />
+    
+    <!-- Cardinal directions text -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M110,20 L110,35 M110,185 L110,200 M20,110 L35,110 M185,110 L200,110" />
+    
+    <!-- Center dot -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M110,110 m-5,0 a5,5 0,1 1,10 0 a5,5 0,1 1,-10 0" />
+</vector>

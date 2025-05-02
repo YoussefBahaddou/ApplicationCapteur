@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_sensors">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.emsi.applicationcapteur.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.emsi.applicationcapteur.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.emsi.applicationcapteur.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+        
+    <fragment
+        android:id="@+id/nav_thermo"
+        android:name="com.emsi.applicationcapteur.ui.thermometer.ThermoFragment"
+        android:label="@string/menu_thermo"
+        tools:layout="@layout/fragment_thermo" />
+        
+    <fragment
+        android:id="@+id/nav_compass"
+        android:name="com.emsi.applicationcapteur.ui.compass.CompassFragment"
+        android:label="@string/menu_compass"
+        tools:layout="@layout/fragment_compass" />
+        
+    <fragment
+        android:id="@+id/nav_humidity"
+        android:name="com.emsi.applicationcapteur.ui.humidity.HumidityFragment"
+        android:label="@string/menu_humidity"
+        tools:layout="@layout/fragment_humidity" />
+        
+    <fragment
+        android:id="@+id/nav_magnetic"
+        android:name="com.emsi.applicationcapteur.ui.magnetic.MagneticFragment"
+        android:label="@string/menu_magnetic"
+        tools:layout="@layout/fragment_magnetic" />
+        
+    <fragment
+        android:id="@+id/nav_proximity"
+        android:name="com.emsi.applicationcapteur.ui.proximity.ProximityFragment"
+        android:label="@string/menu_proximity"
+        tools:layout="@layout/fragment_proximity" />
+        
+    <fragment
+        android:id="@+id/nav_sensors"
+        android:name="com.emsi.applicationcapteur.ui.sensors.ListSonsorsFragment"
+        android:label="@string/menu_sensors"
+        tools:layout="@layout/fragment_listsonsors_list" />
+</navigation>
